@@ -13,7 +13,7 @@ public class RemoveElementGivenIndexBefore {
 		HashSet<Integer> hs = new LinkedHashSet<>();
 		for(int i=0;i<a.length;i++) {
 			
-			if(i >= index) {
+			if(i > index) {
 			     
 			     hs.add(a[i]);
 			}
